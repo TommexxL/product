@@ -1,11 +1,21 @@
 body {
-    background-color: black;
+    background: #000000;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(122, 122, 122, 1) 100%);
     font-family: "Roboto Flex", sans-serif;
     color: aliceblue;
     min-height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: aliceblue;
+}
+a:hover{
+    color: rgb(0, 255, 234);
 }
 
 
@@ -38,11 +48,14 @@ body {
 .hero {
     display: flex;
     justify-content: center;
+    padding: 0;
 }
 
 .product1 {
     width: auto;
-    align-self: center;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 10px black;
 }
 .specs {
     display: flex;
@@ -51,11 +64,15 @@ body {
 }
 
 .specbox {
-    background-color: #fc9696;
-    min-width: 400px;
+    background-color: #3b3b3b;
+    border-radius: 30px;
+    width: 400px;
+    /* max-width: 600px; */
     padding: 20px;
 }
-
+.supercharger {
+    max-width: 50%;
+}
 .footer {
     display: flex;
     width: 100%;
