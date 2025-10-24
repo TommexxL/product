@@ -42,7 +42,7 @@ a:hover{
     gap: 80px;
     padding: 10px;
     margin: 10px 0;
-    background-color: #fc9696;
+    /* background-color: #fc9696; */
 }
 
 .hero {
@@ -52,13 +52,14 @@ a:hover{
 }
 
 .product1 {
-    width: auto;
     justify-content: center;
-    align-content: center;
-    box-shadow: 10px black;
+    padding: 0;
+    margin: 0;
+    box-shadow: 10px 10px 5px 5px black;
 }
 .specs {
     display: flex;
+    margin: 30px;
     gap: 100px;
     justify-content: center;
 }
